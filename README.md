@@ -23,17 +23,17 @@
 
 ## 文件说明
 ```
-- dist: 构建生成的目录
-- src: 存放源码的目录
-- tests: 存放测试用例的目录
-- .eslintignore: ESLint 忽略文件列表
-- .eslintrc.json: ESLint 配置文件
-- .gitignore: Git 忽略文件列表
-- .prettierrc: Prettier 配置文件
-- LICENSE: 许可证文件
-- package.json: 项目依赖和配置文件
-- README.md: 项目说明文档
-- tsconfig.json: TypeScript 配置文件
+- `dist`: 构建生成的目录
+- `src`: 存放源码的目录
+- `tests`: 存放测试用例的目录
+- `.eslintignore`: `ESLint` 忽略文件列表
+- `.eslintrc.json`: `ESLint` 配置文件
+- `.gitignore`: `Git` 忽略文件列表
+- `.prettierrc`: `Prettier` 配置文件
+- `LICENSE`: 许可证文件
+- `package.json`: 项目依赖和配置文件
+- `README.md`: 项目说明文档
+- `tsconfig.json`: `TypeScript` 配置文件
 
 ## 功能
 1. 可直接根据文件注释生成对应的文档
