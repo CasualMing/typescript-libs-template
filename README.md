@@ -22,6 +22,52 @@
 └── tsconfig.json
 ```
 
+## 安装使用
+
+**克隆**
+```bash
+git clone https://github.com/CasualMing/typescript-libs-template.git
+```
+
+**使用 npm 安装**
+```bash
+cd typescript-libs-template
+npm install
+```
+
+**开发**
+
+``` typescript
+// src/index.ts
+/**
+ * 这是一个测试Class,调用方法如下：
+ * ```typescript
+ * // 我们可以这样初始化
+ * const sdk = new frontendSdk();
+ * ```
+ */
+export class frontendSdk {
+    /**
+     * @description:        用以初始化
+     * @param {string} id   传参的ID
+     * @param {string} url  建立链接的ID
+     * @return {*}
+     */
+    initConfig(id: string, url: string) { }
+}
+```
+
+**预览文档**
+运行以下命令
+```
+npm run typedoc
+```
+![image](https://user-images.githubusercontent.com/40878104/221146534-59e9194f-1b8d-4f13-a826-8f9f86b973bb.png)
+![image](https://user-images.githubusercontent.com/40878104/221146588-516c619b-c4fc-480a-b57d-d047e5efd425.png)
+
+
+
+
 ## 文件说明
 
 
@@ -49,5 +95,9 @@
 5. 使用 `Webpack5` 进行构建打包
 
 
-## 许可
+## 贡献
+随时欢迎贡献！
+
+
+## License - 版权信息
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
