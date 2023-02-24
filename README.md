@@ -20,9 +20,11 @@
 ├── package.json
 ├── README.md
 └── tsconfig.json
+```
 
 ## 文件说明
-```
+
+
 - `dist`: 构建生成的目录
 - `src`: 存放源码的目录
 - `tests`: 存放测试用例的目录
@@ -34,6 +36,7 @@
 - `package.json`: 项目依赖和配置文件
 - `README.md`: 项目说明文档
 - `tsconfig.json`: `TypeScript` 配置文件
+
 
 ## 功能
 1. 可直接根据文件注释生成对应的文档
